@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+html, body {
+  background: #000000;   
+  margin: 0;
+  min-height: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-size: clamp(32px, 8vw, 64px); 
+  margin-bottom: 0px;
+  margin-top: 25px;
+  font-family: 'Imperial Script', cursive;
+}
+
+.image-section {
+  margin-top: 10px;
+}
+
+.image-section img {
+  max-width: 250px; 
+  width: 80%;       
+  height: auto;     
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.audio-section {
+  margin: 40px 0;
+}
+
+audio {
+  width: 90%;   
+  max-width: 400px;
+}
+
+@media (max-width: 480px) {
+  .image-section img {
+    max-width: 200px;
+  }
+}
